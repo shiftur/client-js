@@ -1,4 +1,4 @@
-SMART on FHIR JavaScript Library
+testSMART on FHIR JavaScript Library
 ================================
 
 This is a JavaScript library for connecting SMART apps to Fhir servers.
