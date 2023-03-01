@@ -46,6 +46,8 @@ function getSecurityExtensionsFromWellKnownJson(baseUrl = "/", requestOptions?: 
         if (!meta.authorization_endpoint || !meta.token_endpoint) {
             throw new Error("Invalid wellKnownJson");
         }
+        console.log(meta);
+        console.log(meta.authorization_endpoint);
         return {
             registrationUri     : meta.registration_endpoint  || "",
             authorizeUri        : meta.authorization_endpoint,
